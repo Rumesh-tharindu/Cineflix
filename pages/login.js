@@ -20,7 +20,7 @@ const Login = () => {
                 <div className="auth__left--content">
                     <h3>Ready to take the next step?</h3>
                     <h5>Create an account or sign in.</h5>
-                    <p>By creating an account or logging in, you understand and agree to CinemaFlix's Terms. You also acknowledge our Cookie and Privacy policies.</p>
+                    <p>By creating an account or logging in, you understand and agree to CinemaFlix&apos;s Terms. You also acknowledge our Cookie and Privacy policies.</p>
                 </div>
 
                 <div className="auth__left--image">
