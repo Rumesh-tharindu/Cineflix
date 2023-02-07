@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import Link from 'next/link'
 import {
     faCheck,
     faXmark
@@ -68,9 +68,9 @@ const Pricing = () => {
                         </div>
 
                         <div className="pricing__card--action">
-                            <a>
+                            <Link href='/login'>
                                 Watch
-                            </a>
+                            </Link>
                         </div>
                     </div>
 

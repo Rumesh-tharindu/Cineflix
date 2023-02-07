@@ -28,6 +28,7 @@ const ProductList = ({productListData}) => {
                                         <a href='' className="product">
                                             <div className="product__card">
                                                 <Image 
+                                                    alt ={product.movieName}
                                                     src= {product.posterURL}
                                                     width= "400"
                                                     height= "500"
@@ -37,6 +38,7 @@ const ProductList = ({productListData}) => {
                                             <div className="product__play-btn">
                                                 <button href=''>
                                                     <Image
+                                                    alt ='playicon'
                                                     src={palyIcon}
                                                     />
                                                 </button>
@@ -56,11 +58,13 @@ const ProductList = ({productListData}) => {
                                             <div className="product__actions">
                                                 <button className='product__action__addtocart'>
                                                     <Image
+                                                        alt = 'carticon'
                                                         src={cartIcon}
                                                     />
                                                 </button>
                                                 <button className='product__action__favaroutebtn'>
                                                     <Image 
+                                                        alt = 'favicon'
                                                         src={favIcon}
                                                     />
                                                 </button>

@@ -13,7 +13,14 @@ const Accordion = ({ title, content }) => {
         <div className="accordion__title" onClick={() => setIsActive(!isActive)}>
             <div><h5>{title}</h5></div>
             <div>
-                <button>{isActive ? <Image src = {subtractIcon} /> : <Image src = {plusIcon} />}</button>
+                <button>{isActive ? <Image 
+                src = {subtractIcon}
+                alt= 'image-1'
+                 />
+                  : 
+                <Image
+                alt= 'image-2'
+                 src = {plusIcon} />}</button>
             </div>
         </div>
         <div className={`accordion__content ${isActive ? "is-active" :''}`}>
