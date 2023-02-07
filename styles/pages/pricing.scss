@@ -1,0 +1,71 @@
+.pricing {
+   
+    &__title {
+        @apply text-center mb-8;
+    }
+
+    &__cards {
+        @apply flex justify-center;
+    }
+
+    &__card {
+        @apply w-1/4 p-8 mr-8;
+        box-shadow: 0 1px 5px 0 #b6c7d6;
+
+        a {
+            @apply inline-block;
+        }
+
+        &:nth-child(odd) {
+          @apply bg-grayLight;
+
+          a {
+            @apply bg-primary text-secondary py-4 px-16;
+            border-radius: 30px;
+          }
+        }
+
+        &:nth-child(even) {
+            @apply bg-primary text-white;
+            a {
+                @apply bg-red text-secondary py-4 px-16;
+                border-radius: 30px;
+            }
+        }
+
+        &--title {
+            @apply text-center;
+        }
+
+        &--price{
+            @apply relative font-bold mb-4 text-center;
+
+            span:nth-child(1){
+                @apply absolute;
+                top: 7px;
+                left: 25%;
+            }
+
+            span:nth-child(2){
+                @apply inline-block pl-4;
+                font-size: 50px;
+            }
+        }
+
+        &--list {
+            @apply mb-4;
+
+            ul {
+                font-size: 1.1rem;
+
+                svg {
+                    @apply mr-2;
+                  }
+            }
+        }
+
+       
+
+        
+    }
+}

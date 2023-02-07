@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://use.typekit.net/xhb6imc.css");
+
+
+// Base styles
+html, body {
+  @apply text-primary font-primary;
+  scroll-behavior: smooth;
+  font-size: 15px;
+
+}
+
+html {
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

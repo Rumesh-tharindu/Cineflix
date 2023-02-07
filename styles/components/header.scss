@@ -1,0 +1,38 @@
+.header{
+
+    &__inner {
+        @apply flex items-center justify-between ;
+        height: 88px;
+    }
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+
+        &-title {
+            @apply font-bold uppercase font-logo mt-4;
+            font-size: 30px;
+            line-height: 40px;
+            text-shadow: 2.2px 2.2px 0px #1e1e1e, 
+                  
+                 
+
+        }
+        &-image {
+            width: 40px;
+        }
+    }
+
+    .navigation {
+        @apply flex mb-0;
+        
+        &__main-item {
+            @apply px-4;
+        }
+        a{
+            @apply font-light;
+        }
+    }
+
+}

@@ -1,0 +1,177 @@
+body {
+    @apply text-base leading-normal font-primary;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+h1, .h1 {
+    @apply font-bold mb-6;
+    line-height: 1.266;
+    font-size: 2rem;
+}
+
+h2, .h2 {
+    @apply font-bold mb-6;
+    line-height: 1.18;
+    font-size: 1.75rem;
+}
+
+h3, .h3 {
+    @apply font-bold mb-5;
+    line-height: 1.18;
+    font-size: 1.5rem;
+}
+
+h4, .h4 {
+    @apply font-bold mb-5;
+    line-height: 1.187;
+    font-size: 1.25rem;
+}
+
+h5, .h5 {
+    @apply font-bold mb-5;
+    line-height: 1.25;
+    font-size: 1.125rem;
+}
+
+h6, .h6 {
+    @apply font-bold mb-5;
+    font-size: 1.125rem;
+    line-height: 1.44;
+}
+
+@screen md {
+    h1, .h1 {
+        font-size: 3rem;
+    }
+
+    h2, .h2 {
+        font-size: 2.5rem;
+    }
+
+    h3, .h3 {
+        font-size: 2.25rem;
+    }
+
+    h4, .h4 {
+        font-size: 2rem;
+    }
+
+    h5, .h5 {
+        font-size: 1.5rem;
+    }
+}
+
+@screen lg {
+    h1, .h1 {
+        font-size: 3.75rem;
+    }
+
+    h2, .h2 {
+        font-size: 3.125rem;
+    }
+
+    .text-md {
+        font-size: 1.125rem;
+    }
+
+    .text-lg {
+        font-size: 1.5rem;
+    }
+}
+
+p {
+    @apply mb-5;
+}
+
+ul {
+    @apply mb-5;
+}
+
+ol {
+    @apply mb-5;
+}
+
+li {
+    @apply mb-2;
+
+    &:last-child {
+        @apply mb-0;
+    }
+}
+
+.typography {
+    @apply clear-both;
+
+    *:last-child {
+        @apply mb-0;
+    }
+
+    ul {
+        @apply list-disc list-outside pl-5;
+    }
+
+    ol {
+        @apply list-decimal list-outside pl-5;
+    }
+
+    a:not(.btn) {
+       
+
+        &:hover {
+            @apply text-black;
+        }
+    }
+
+    table {
+        @apply w-full mb-5 mt-5;
+
+        th,
+        td {
+            @apply px-3 py-1 align-top;
+
+            &:nth-child(2n+2) {
+                background-color: rgba(237, 237, 237, 0.4);
+            }
+        }
+
+        tr:first-child {
+            @apply font-bold;
+        }
+
+        tr:nth-child(odd) {
+            background-color: rgba(237, 237, 237, 0.4);
+        }
+
+    }
+
+    //.text-center {
+    //    text-align: center;
+    //}
+    //
+    //.text-right {
+    //    text-align: right;
+    //}
+    //
+    //.text-justify {
+    //    text-align: justify;
+    //}
+
+    img.rightAlone {
+        margin-left: 100%;
+        transform: translateX(-100%);
+    }
+
+    img.center {
+        @apply block mx-auto;
+    }
+
+    img.right {
+        @apply float-right ml-5 mb-5;
+    }
+
+    img.left {
+        @apply float-left mr-5 mb-5;
+    }
+
+}

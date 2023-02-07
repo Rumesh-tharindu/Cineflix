@@ -1,0 +1,59 @@
+.heroslider {
+    @apply mb-12;
+
+    .slick-dots{
+
+        button{
+
+            &::before{
+                @apply bg-primary;
+                width: 10px;
+                height: 10px;
+                font-size: 0;
+            }
+          
+        }
+    }
+    &-image {
+        @apply relative;
+    }
+
+    &-content {
+        @apply absolute text-white p-8;
+        top: 50%;
+        transform: translateY(-50%);
+
+        &__desc {
+            max-width: 500px;
+        }
+
+        @screen lg {
+            @apply w-1/2;
+        }
+    }
+
+    &-action {
+        @apply flex items-center;
+
+        &__playbtn {
+            @apply flex items-center justify-center bg-white rounded-full;
+            width: 50px;
+            height: 50px;
+
+            svg {
+                width: 20px;
+                height: 20px;
+            }
+        }
+        &__playtitle {
+            @apply uppercase font-bold relative text-primary bg-white;
+            padding: .4rem;
+            padding-left: 3.5rem;
+            z-index: -1;
+            padding-right: 1rem;
+            left: -49px;
+            border-radius: 32px;
+        }
+
+    }
+}

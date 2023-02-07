@@ -1,0 +1,19 @@
+@import "lib/base";
+@import "lib/typography";
+
+
+// components
+
+@import "components/header.scss";
+@import "components/hero-slider.scss";
+@import "components/footer.scss";
+@import "components/product-list.scss";
+@import "components/publishers.scss";
+@import 'components/faq.scss';
+@import 'components/accordion.scss';
+
+
+// pages
+
+@import "pages/auth.scss";
+@import "pages/pricing.scss";

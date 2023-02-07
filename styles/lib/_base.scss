@@ -1,0 +1,44 @@
+:root {
+
+}
+
+* {
+    outline: none;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.body {
+    @apply flex flex-col min-h-screen;
+}
+
+.main {
+    @apply grow;
+}
+
+.container {
+    @apply w-full px-5 mx-auto;
+    max-width: 1320px;
+}
+
+.container- {
+    @apply w-full px-5 mx-auto;
+
+
+}
+
+a {
+    @apply cursor-pointer;
+}
+
+.section-top {
+    @apply pt-16;
+}
+
+.section-bottom {
+    @apply pb-16;
+}
+
+

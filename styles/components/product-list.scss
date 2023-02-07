@@ -1,0 +1,118 @@
+.productlists{
+     
+    .productlist{
+        @apply mb-16;
+
+        &-head {
+            @apply flex justify-between mb-6;
+
+            &__title {
+                @apply relative;
+
+                h3 {
+                    @apply text-xl mb-0 ;
+                }
+                &::before {
+                    @apply bg-primary absolute -bottom-1 rounded-full;
+                    content: '';
+                    width: 75%;
+                    height: 3px;
+
+                }
+                
+            }
+            &__view-all {
+                h3 {
+                    @apply text-xl mb-0;
+                }
+                
+            }
+        }
+
+        &-cols {
+            @apply flex -mx-4;
+        }
+        &-col {
+            @apply w-1/4 px-4 ;
+        }
+
+        .product{
+            @apply relative;
+
+            &__card {
+               
+            }
+        
+            &__play-btn {
+                @apply absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%) scale(0);
+                opacity: 0;
+                transition: .5s;
+
+                
+
+                img{
+                    width: 75px;
+                }
+            }
+            &__actions {
+                @apply absolute top-4 -left-4 flex flex-col gap-4 opacity-0;
+                transition: .5s;
+    
+                button {
+                    width: 25px;
+                }
+            }
+
+            &__details {
+                @apply absolute bottom-0 text-white w-full p-4 opacity-0;
+                transition: .5s;
+
+                p {
+                    @apply mb-1;
+                }
+            }
+            &:hover {
+                .product__card{
+                    img{
+                        filter: brightness(40%);
+                    }
+                }
+                
+                .product__play-btn {
+                    transform: translate(-50%, -50%) scale(1);
+                    opacity: 1;
+                }
+                .product__details {
+                    @apply opacity-100 bottom-1;
+                }
+                .product__actions {
+                    @apply opacity-100 left-4;
+                }
+            }
+
+        &__price-and-year {
+          @apply flex justify-between items-center;
+
+        }
+        &__year-and-time {
+            @apply flex gap-2 items-center;
+            
+            p {
+                &:first-child {
+                    @apply border border-white p-1;
+                    border-radius: 5px;
+                    line-height: 1;
+                  }
+            }
+            
+        }
+            
+        }
+
+       
+
+    }
+}

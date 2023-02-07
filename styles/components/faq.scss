@@ -1,0 +1,20 @@
+.faq {
+
+    @apply relative overflow-hidden;
+
+    &__heading {
+       @apply text-center mx-auto mb-16;
+       max-width: 1000px;
+    }
+    &__side-bg{
+        background-image: url('../../public/popcorn-64.svg');
+        position: absolute;
+        width: 500px;
+        height: 500px;
+        bottom: -100px;
+        background-repeat: no-repeat;
+        right: -59px;
+        opacity: .3;
+        transform: rotate(29deg);
+    }
+}
