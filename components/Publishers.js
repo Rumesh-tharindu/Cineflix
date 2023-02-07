@@ -37,6 +37,7 @@ const Publishers = () => {
                                <div className="publishers__listing-inner">
                                     <div className="img-wrapper">
                                         <Image
+                                        alt='image-A'
                                          src = {publisherA}
                                          />
                                     </div>
@@ -50,6 +51,7 @@ const Publishers = () => {
                                <div className="publishers__listing-inner">
                                     <div className="img-wrapper">
                                         <Image
+                                        alt='image-B'
                                          src = {publisherB}
                                          />
                                     </div>
@@ -62,6 +64,7 @@ const Publishers = () => {
                                <div className="publishers__listing-inner">
                                     <div className="img-wrapper">
                                         <Image
+                                        alt='image-C'
                                          src = {publisherC}
                                          />
                                     </div>
@@ -74,6 +77,7 @@ const Publishers = () => {
                                <div className="publishers__listing-inner">
                                     <div className="img-wrapper">
                                         <Image
+                                        alt='image-D'
                                          src = {publisherD}
                                          />
                                     </div>
@@ -86,6 +90,7 @@ const Publishers = () => {
                                <div className="publishers__listing-inner">
                                     <div className="img-wrapper">
                                         <Image
+                                        alt='image-E'
                                          src = {publisherE}
                                          />
                                     </div>
@@ -98,6 +103,7 @@ const Publishers = () => {
                                <div className="publishers__listing-inner">
                                     <div className="img-wrapper">
                                         <Image
+                                        alt='image-F'
                                          src = {publisherF}
                                          />
                                     </div>
@@ -110,6 +116,7 @@ const Publishers = () => {
                                <div className="publishers__listing-inner">
                                     <div className="img-wrapper">
                                         <Image
+                                        alt='image-CQ'
                                          src = {publisherG}
                                          />
                                     </div>
@@ -122,6 +129,7 @@ const Publishers = () => {
                                <div className="publishers__listing-inner">
                                     <div className="img-wrapper">
                                         <Image
+                                        alt='image-CL'
                                          src = {publisherH}
                                          />
                                     </div>
@@ -134,6 +142,7 @@ const Publishers = () => {
                                <div className="publishers__listing-inner">
                                     <div className="img-wrapper">
                                         <Image
+                                        alt='image-CR'
                                          src = {publisherI}
                                          />
                                     </div>
@@ -146,6 +155,7 @@ const Publishers = () => {
                                <div className="publishers__listing-inner">
                                     <div className="img-wrapper">
                                         <Image
+                                        alt='image-KM'
                                          src = {publisherJ}
                                          />
                                     </div>
@@ -158,6 +168,7 @@ const Publishers = () => {
                                <div className="publishers__listing-inner">
                                     <div className="img-wrapper">
                                         <Image
+                                         alt='image-KL'
                                          src = {publisherK}
                                          />
                                     </div>
@@ -170,6 +181,7 @@ const Publishers = () => {
                                <div className="publishers__listing-inner">
                                     <div className="img-wrapper">
                                         <Image
+                                         alt='image-KH'
                                          src = {publisherL}
                                          />
                                     </div>
@@ -182,6 +194,7 @@ const Publishers = () => {
                                <div className="publishers__listing-inner">
                                     <div className="img-wrapper">
                                         <Image
+                                         alt='image-KML'
                                          src = {publisherM}
                                          />
                                     </div>

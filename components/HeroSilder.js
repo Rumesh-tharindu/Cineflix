@@ -29,7 +29,7 @@ const HeroSlider = () =>{
             <div>
       <Slider {...settings}>
       <div className='heroslider-image'>
-        <Link href='/pricing'>
+        {/* <Link href='/pricing'> */}
         <Image
                         
                         src={Slider3}
@@ -46,7 +46,7 @@ const HeroSlider = () =>{
                               like readable English.</p> 
                            </div>
                            <div className="heroslider-actions">
-                            <a href="" className="heroslider-action">
+                            <Link href="" className="heroslider-action">
                               <span className='heroslider-action__playbtn'>
                                 <FontAwesomeIcon
                                 icon = {faPlay}
@@ -54,10 +54,10 @@ const HeroSlider = () =>{
                                 />
                               </span>
                               <span className='heroslider-action__playtitle'>Watch Trailer</span>
-                            </a>
+                            </Link>
                            </div>
                        </div>
-        </Link>
+        {/* </Link> */}
     
           </div>
           <div className='heroslider-image'>

@@ -25,6 +25,7 @@ const Login = () => {
 
                 <div className="auth__left--image">
                     <Image
+                    alt='popcorn'
                      src={popCorn}
                      />
                 </div>

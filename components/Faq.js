@@ -55,7 +55,7 @@ const Faq = () => {
                 </div>
                 <div className="accordion">
                     {accordionData.map(({ title, content }) => (
-                    <Accordion title={title} content={content} />
+                    <Accordion title={title} content={content} key={title} />
                     ))}
                  </div>
                 <div className='faq__side-bg'>
